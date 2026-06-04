@@ -5,23 +5,24 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
       - uses: Platane/snk@v3
         with:
-          github_user_name: tk-ghosh
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#7c3aed
-            dist/snake-dark.svg?color_snake=#a78bfa&palette=github-dark
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
-      - uses: peaceiris/actions-gh-pages@v3
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: snake-output
-          user_name: tk-ghosh
-          user_email: tutulkghosh@gmail.com
+          user_name: github-actions
+          user_email: github-actions@github.com

@@ -1,26 +1,20 @@
 <h1 align="center">Hi, I'm Tutul Kumar Ghosh</h1>
 
-###
 
 <p align="left">I'm an AI Engineer | Data Analyst</p>
 
-###
 
 <h2 align="left">About me</h2>
 
-###
 
 <img align="right" height="170" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"  />
 
-###
 
 <p align="left">- 💼 Current Role: Data Analyst at Oric Incorporation<br>- 🎓 Education: B.Sc. in CSE (Data Science) from AIUB<br>- 🔬 Research: Deep Learning, GANs, & Medical Image Analysis<br>- 🎯 Goal: To establish myself as a skilled AI and Data Analytics professional<br>- 📧 Contact: tutulkghosh@gmail.com</p>
 
-###
 
 <h2 align="left">Skill</h2>
 
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
@@ -60,14 +54,11 @@
   <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40" alt="mysql logo"  />
 </div>
 
-###
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=tk-ghosh.tk-ghosh&"  />
 </div>
 
-###
 
 <img src="https://raw.githubusercontent.com/tk-ghosh/tk-ghosh/snake-output/snake.svg" alt="Snake animation" />
 
-###
