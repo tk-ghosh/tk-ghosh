@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/tk-ghosh/tk-ghosh/main/banner.svg" width="100%" alt="AI Engineer & Data Analyst Banner" />
+
 <h1 align="center">Hi, I'm Tutul Kumar Ghosh</h1>
 
 
