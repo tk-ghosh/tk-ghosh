@@ -14,6 +14,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: tk-ghosh
@@ -21,19 +23,9 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push snake to snake-output branch
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          mkdir -p deploy
-          cp dist/github-snake.svg deploy/
-          cp dist/github-snake-dark.svg deploy/
-
-          cd deploy
-          git init
-          git add .
-          git commit -m "Update snake animation [ci skip]"
-          git branch -M snake-output
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push -f origin snake-output
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: snake-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
