@@ -18,13 +18,22 @@ jobs:
         with:
           github_user_name: tk-ghosh
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            snake.svg
+            snake-dark.svg?palette=github-dark
 
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: snake-output
-          user_name: github-actions
-          user_email: github-actions@github.com
+      - name: Push snake to snake-output branch
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          mkdir -p deploy
+          cp snake.svg deploy/
+          cp snake-dark.svg deploy/
+
+          cd deploy
+          git init
+          git add .
+          git commit -m "Update snake animation [ci skip]"
+          git branch -M snake-output
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push -f origin snake-output
