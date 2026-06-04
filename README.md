@@ -10,7 +10,7 @@
 
 ###
 
-<img align="right" height="170" src="https://tenor.com/view/ngoding-mulu-gif-1747207714643625346"  />
+<img align="right" height="170" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"  />
 
 ###
 
