@@ -64,5 +64,5 @@
 </div>
 
 
-<img src="https://raw.githubusercontent.com/tk-ghosh/tk-ghosh/snake-output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/tk-ghosh/tk-ghosh/snake-output/github-snake-dark.svg" alt="Snake animation" />
 

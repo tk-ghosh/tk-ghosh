@@ -18,8 +18,8 @@ jobs:
         with:
           github_user_name: tk-ghosh
           outputs: |
-            snake.svg
-            snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
       - name: Push snake to snake-output branch
         run: |
@@ -27,8 +27,8 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
           mkdir -p deploy
-          cp snake.svg deploy/
-          cp snake-dark.svg deploy/
+          cp dist/github-snake.svg deploy/
+          cp dist/github-snake-dark.svg deploy/
 
           cd deploy
           git init
