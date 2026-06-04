@@ -7,11 +7,11 @@
 <h2 align="left">About me</h2>
 
 
-<img align="right" height="170" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"  />
-
+<img align="right" height="170" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
 
 <p align="left">- 💼 Current Role: Data Analyst at Oric Incorporation<br>- 🎓 Education: B.Sc. in CSE (Data Science) from AIUB<br>- 🔬 Research: Deep Learning, GANs, & Medical Image Analysis<br>- 🎯 Goal: To establish myself as a skilled AI and Data Analytics professional<br>- 📧 Contact: tutulkghosh@gmail.com</p>
 
+<br clear="both" />
 
 <h2 align="left">Skill</h2>
 
