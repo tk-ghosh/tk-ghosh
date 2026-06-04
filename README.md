@@ -1,8 +1,8 @@
-<h1 align="center">Hi I'm Tutul Kumar Ghosh</h1>
+<h1 align="center">Hi, I'm Tutul Kumar Ghosh</h1>
 
 ###
 
-<p align="left">I'm a AI Engineer | Data Analyst</p>
+<p align="left">I'm an AI Engineer | Data Analyst</p>
 
 ###
 
@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">- 💼 Current Role:** Data Analyst at Oric Incorporation<br>- 🎓 Education:** B.Sc. in CSE (Data Science) from AIUB<br>- 🔬 Research: Deep Learning, GANs, & Medical Image Analysis<br>- 🎯 Goal: To establish myself as a skilled AI and Data Analytics professiona<br>- 📧 Contact: tutulkghosh@gmail.com</p>
+<p align="left">- 💼 Current Role: Data Analyst at Oric Incorporation<br>- 🎓 Education: B.Sc. in CSE (Data Science) from AIUB<br>- 🔬 Research: Deep Learning, GANs, & Medical Image Analysis<br>- 🎯 Goal: To establish myself as a skilled AI and Data Analytics professional<br>- 📧 Contact: tutulkghosh@gmail.com</p>
 
 ###
 
