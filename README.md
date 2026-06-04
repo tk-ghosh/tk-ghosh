@@ -11,8 +11,6 @@
 
 <p align="left">- 💼 Current Role: Data Analyst at Oric Incorporation<br>- 🎓 Education: B.Sc. in CSE (Data Science) from AIUB<br>- 🔬 Research: Deep Learning, GANs, & Medical Image Analysis<br>- 🎯 Goal: To establish myself as a skilled AI and Data Analytics professional<br>- 📧 Contact: tutulkghosh@gmail.com</p>
 
-<br clear="both" />
-
 <h2 align="left">Skill</h2>
 
 
@@ -52,6 +50,12 @@
   <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
   <img width="12" />
   <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/master/SVG/Power-BI.svg" height="40" alt="powerbi logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/spacy" height="40" alt="nlp logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" height="40" alt="keras logo"  />
 </div>
 
 
